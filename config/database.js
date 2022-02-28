@@ -6,6 +6,7 @@ const sequelize = new Sequelize({
     benchmark: true
 });
 const userModel = require('../api/user/model/user')
+const tutorialModel = require('../api/tutorial/model/tutorial')
 
 const init = async() => {
 
@@ -17,8 +18,9 @@ const init = async() => {
         console.log('Connection has been established successfully.');
 
         userModel.define(sequelize)
+        tutorialModel.define(sequelize)
 
-        await sequelize.sync({ force: true })
+        await sequelize.sync({ force: false })
 
     } catch (err) {
         console.error('Unable to connect to the database:', err);
