@@ -1,0 +1,33 @@
+{
+    "name": "cualit-challenge",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "dev": "nodemon index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Drolegc/cualit-challenge.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Drolegc/cualit-challenge/issues"
+    },
+    "homepage": "https://github.com/Drolegc/cualit-challenge#readme",
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "dotenv": "^16.0.0",
+        "express": "^4.17.3",
+        "jsonwebtoken": "^8.5.1",
+        "lodash": "^4.17.21",
+        "sequelize": "^6.16.3",
+        "sqlite3": "^5.0.2"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.15"
+    }
+}
