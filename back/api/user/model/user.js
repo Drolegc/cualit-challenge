@@ -1,8 +1,8 @@
 const { DataTypes } = require('sequelize');
-
+let Usuario
 module.exports = {
     define(sequelize) {
-        sequelize.define('user', {
+        Usuario = sequelize.define('user', {
 
             id: {
                 allowNull: false,
@@ -20,5 +20,13 @@ module.exports = {
                 allowNull: false
             }
         });
+    },
+
+    find(condition = null) {
+        return Usuario.findAll({ where: condition })
+    },
+
+    create(data) {
+        return Usuario.create(data)
     }
 }

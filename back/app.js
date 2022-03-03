@@ -3,6 +3,7 @@
 require("dotenv").config();
 require("./config/database");
 const userConfig = require("./api/user/config")
+const tutorialConfig = require("./api/tutorial/config")
 const express = require("express");
 
 const app = express();
@@ -13,6 +14,7 @@ app.get('/', (req, res) => {
 })
 
 userConfig.init(app)
+tutorialConfig.init(app)
 
 app.use("*", (req, res) => {
     res.status(404).json({
