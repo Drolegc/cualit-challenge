@@ -58,17 +58,18 @@ export default {
                         method: "post",
                         propertyName: "jwt"
                     },
-                    logout: false
+                    logout: false,
+                    user: false
                 },
                 tokenRequired: true,
                 //tokenType: "Bearer"
             }
         },
-        redirect: {
-            login: "/",
-            logout: "/",
-            user: "/"
-        }
+        // redirect: {
+        //     login: "/",
+        //     logout: "/",
+        //     user: "/"
+        // }
     },
 
     axios: {
@@ -78,7 +79,7 @@ export default {
     vuetify: {
         customVariables: ['~/assets/variables.scss'],
         theme: {
-            dark: true,
+            dark: false,
             themes: {
                 dark: {
                     primary: colors.blue.darken2,

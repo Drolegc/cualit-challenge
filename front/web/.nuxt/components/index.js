@@ -1,4 +1,6 @@
-
+export { default as LoginForm } from '../..\\components\\loginForm.vue'
+export { default as RegisterForm } from '../..\\components\\registerForm.vue'
+export { default as Tutorials } from '../..\\components\\tutorials\\index.vue'
 
 // nuxt/nuxt.js#8607
 function wrapFunctional(options) {

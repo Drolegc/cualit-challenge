@@ -1,0 +1,22 @@
+<template>
+    <v-app>
+        <v-app-bar
+        app
+        absolute
+        class="elevation-0 primary"
+      >
+      <v-btn 
+      color="white"
+      plain>Tutos.com</v-btn>
+      <v-btn 
+      color="white"
+      plain>Tutoriales</v-btn>
+      <v-btn 
+      color="white"
+      plain>agregar</v-btn>
+        </v-app-bar>
+        <v-main>
+            <nuxt></nuxt>
+        </v-main>
+    </v-app>
+</template>

@@ -1,11 +1,16 @@
 <template>
-  <div>
-    <h1>Sape</h1>
-  </div>
+    <v-container grid-list-xs>
+        <h2>INDEX</h2>
+        <tutorials-list></tutorials-list>
+    </v-container>
 </template>
 
 <script>
+    import TutorialsList from "../components/tutorials/index.vue"
+
     export default {
-        name: 'IndexPage'
+        components: {
+            TutorialsList
+        }
     }
 </script>

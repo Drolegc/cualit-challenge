@@ -36,9 +36,9 @@ module.exports = {
                 }
             );
 
-            res.status(200).json({ jwt: token, user });
+            return res.status(200).json({ jwt: token, user });
         }
-        res.status(400).send("Invalid Credentials");
+        return res.status(400).send("Invalid Credentials");
 
     },
 

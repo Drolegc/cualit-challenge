@@ -1,8 +1,16 @@
 [
   {
+    "name": "auth",
+    "path": "/auth",
+    "component": "C:\\\\Users\\\\pc\\\\Desktop\\\\cualit-challenge\\\\front\\\\web\\\\pages\\\\auth.vue",
+    "chunkName": "pages/auth",
+    "_name": "_eb758226"
+  },
+  {
     "name": "index",
     "path": "/",
     "component": "C:\\\\Users\\\\pc\\\\Desktop\\\\cualit-challenge\\\\front\\\\web\\\\pages\\\\index.vue",
-    "chunkName": "pages/index"
+    "chunkName": "pages/index",
+    "_name": "_39cdb55d"
   }
 ]

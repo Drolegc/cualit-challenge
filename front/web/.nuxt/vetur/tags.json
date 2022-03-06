@@ -1,1 +1,11 @@
-{}
+{
+  "LoginForm": {
+    "description": "Auto imported from components/loginForm.vue"
+  },
+  "RegisterForm": {
+    "description": "Auto imported from components/registerForm.vue"
+  },
+  "Tutorials": {
+    "description": "Auto imported from components/tutorials/index.vue"
+  }
+}
