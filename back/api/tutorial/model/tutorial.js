@@ -1,4 +1,6 @@
-const { DataTypes } = require('sequelize');
+const _ = require('lodash')
+const { DataTypes, Sequelize } = require('sequelize');
+const Op = Sequelize.Op;
 let Tutorial
 module.exports = {
     define(sequelize) {
@@ -32,6 +34,16 @@ module.exports = {
     },
 
     find(condition = null) {
+
+        if (_.has(condition, 'title_includes')) {
+            const titleLike = condition.title_includes
+            condition.title = {
+                [Op.like]: `%${titleLike}%`
+
+            }
+            delete condition.title_includes
+        }
+
         return Tutorial.findAll({ where: condition })
     },
 

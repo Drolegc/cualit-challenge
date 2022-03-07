@@ -1,7 +1,7 @@
 module.exports = [{
         path: "/tutorials/",
         method: "get",
-        middlewares: ["auth"],
+        //middlewares: ["auth"],
         handler: "find"
     },
     {
