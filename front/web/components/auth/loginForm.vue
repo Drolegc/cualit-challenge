@@ -24,7 +24,7 @@
       class="mr-4"
       @click="submit"
     >
-      Login
+      ACEPTAR
     </v-btn>
         </v-form>
     </v-container>
@@ -33,6 +33,11 @@
 <script>
     export default {
         name: 'loginForm',
+        props: {
+            callback: {
+                type: Function,
+            }
+        },
         data() {
 
             return {
@@ -56,7 +61,8 @@
                         password: this.password
                     }).then((response) => {
                         let data = response.data
-                        localStorage.setItem("token", data.jwt)
+                        localStorage.setItem("jwt", data.jwt)
+                        this.callback()
                     })
                     .catch((error) => {
                         console.error(error)

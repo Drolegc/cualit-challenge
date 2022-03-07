@@ -1,11 +1,23 @@
 {
-  "LoginForm": {
-    "description": "Auto imported from components/loginForm.vue"
+  "Auth": {
+    "description": "Auto imported from components/auth/index.vue"
   },
-  "RegisterForm": {
-    "description": "Auto imported from components/registerForm.vue"
+  "AuthLoginForm": {
+    "description": "Auto imported from components/auth/loginForm.vue"
+  },
+  "AuthRegisterForm": {
+    "description": "Auto imported from components/auth/registerForm.vue"
+  },
+  "TutorialsEmpty": {
+    "description": "Auto imported from components/tutorials/empty.vue"
   },
   "Tutorials": {
     "description": "Auto imported from components/tutorials/index.vue"
+  },
+  "TutorialsList": {
+    "description": "Auto imported from components/tutorials/list.vue"
+  },
+  "TutorialsNotFound": {
+    "description": "Auto imported from components/tutorials/notFound.vue"
   }
 }

@@ -1,6 +1,5 @@
 <template>
     <v-container grid-list-xs>
-        <h2>INDEX</h2>
         <tutorials-list></tutorials-list>
     </v-container>
 </template>

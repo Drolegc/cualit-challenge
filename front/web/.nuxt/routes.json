@@ -1,10 +1,10 @@
 [
   {
-    "name": "auth",
-    "path": "/auth",
-    "component": "C:\\\\Users\\\\pc\\\\Desktop\\\\cualit-challenge\\\\front\\\\web\\\\pages\\\\auth.vue",
-    "chunkName": "pages/auth",
-    "_name": "_eb758226"
+    "name": "agregar",
+    "path": "/agregar",
+    "component": "C:\\\\Users\\\\pc\\\\Desktop\\\\cualit-challenge\\\\front\\\\web\\\\pages\\\\agregar.vue",
+    "chunkName": "pages/agregar",
+    "_name": "_d19dceac"
   },
   {
     "name": "index",

@@ -73,7 +73,7 @@ export default {
     },
 
     axios: {
-        baseURL: 'http://localhost:1313'
+        baseURL: 'http://localhost:13131'
     },
     // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
     vuetify: {
